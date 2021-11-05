@@ -168,7 +168,7 @@ namespace TheArtOfDev.HtmlRenderer.Adapters
         /// </summary>
         /// <param name="font">the font name to check</param>
         /// <returns>true - font exists by given family name, false - otherwise</returns>
-        public bool IsFontExists(string font)
+        public virtual bool IsFontExists(string font)
         {
             return _fontsHandler.IsFontExists(font);
         }
